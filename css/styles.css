@@ -92,7 +92,7 @@ li:hover {
     font-size: 19px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     width: 85%;
-    
+    margin-left: 20px;
 }
 
 .button {
@@ -112,7 +112,7 @@ li:hover {
     font-weight: bold;
     outline: none;
     margin-top: 25px;
-   
+     margin-left: 20px;
 }
 
 .button:hover {
@@ -188,8 +188,8 @@ span {
 
     .trailer {
         width: 100%;
+        margin-left: 15px;
     }
-
     #sinopse {
         width: 95%;
         display: flex;
@@ -199,13 +199,14 @@ span {
 
     .descricao {
         width: 100%;
+        margin-left: 15px;
     }
 
     .button {
         width: 100%;
         margin-top: 30px;
+        margin-left: 14px;
     }
-
 
 }
 
