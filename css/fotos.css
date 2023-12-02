@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(45deg,rgb(24, 23, 23),rgb(114, 10, 32),rgb(24, 23, 23));
+    
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+
+}
+
+nav {
+    width: 60%;
+
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ 
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+
+}
+
+li:hover {
+    color: #E21212;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.banner-1 {
+    background-image: url(https://www.zbrushcentral.com/uploads/default/original/4X/9/7/4/974ae6c96b9e0b1d1bb1198afe46f13c3d91d141.jpeg);
+
+}
+
+.banner-2 {
+    background-image: url(https://pbs.twimg.com/media/FMOk4EiXEAURgip.jpg);
+
+}
+
+.banner-3 {
+    background-image: url(https://2.bp.blogspot.com/-N9DtMsBCAwI/XbtdLT8foBI/AAAAAAACzVU/bTyfrBq-ApwVG8DUfRmWYVlvKyzXJ-08wCK4BGAYYCw/s1600/jeffreywrights.jpg);
+    
+}
+
+.banner-4 {
+    background-image: url(https://sm.ign.com/ign_br/screenshot/default/charada-batman-filme_71j7.jpg);
+    
+}
+
+.banner-5 {
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/c3215195-a3c7-11ed-aa6e-9587410378a2/penguim.jpg);
+    
+}
+
+.banner-6 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/john-turturro-the-batman-1646837980.jpg?crop=0.450xw:0.678xh;0.550xw,0&resize=1200:*);
+    
+}
+.banner-7 {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/101/356/desktop-wallpaper-the-batman-robert-pattinson-posted-by-samantha-thompson.jpg);
+    
+}
+.banner-8 {
+    background-image: url(https://poltronanerd.com.br/wp-content/uploads/2022/03/poltrona-zoe-mulher-gato.jpg);
+    
+}
+.banner-9 {
+    background-image: url(https://revolucaonerd.com/wordpress/wp-content/files/revolucaonerd.com/2022/08/the-batmann.webp);
+    
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif
+
+}
+.logo {
+    width: 150px;
+
+}
+
+.footer-navigation {
+    display: none;
+
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media(max-width: 768px) {
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+
+    nav {
+        display: none; 
+
+    }
+
+}
