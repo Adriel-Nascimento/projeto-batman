@@ -154,7 +154,14 @@ span {
 
 }
 
- .footer-navigation {
+@media(max-width: 768px) {
+
+    footer {
+       margin-top: 130px;
+      
+    }
+
+    .footer-navigation {
         display: block;
     }
 
